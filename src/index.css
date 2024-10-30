@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-mixed {
+  background-image: url('./spk1.jpg'), url('./spk2.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
